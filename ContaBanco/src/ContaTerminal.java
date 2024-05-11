@@ -10,12 +10,11 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Conta: ");
         int numero = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha pendente
+        scanner.nextLine();
 
         System.out.println("Por favor, digite o Nome do Cliente:");
         String nome = scanner.nextLine();
 
-        // Definindo o saldo diretamente no código
         double saldo = 237.48;
 
         System.out.println("\nOlá " + nome + ", obrigado por criar uma conta em nosso banco,");
